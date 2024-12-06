@@ -1,9 +1,9 @@
 window cmp
 cls -clear display
 cd <name> -change directory
-dir -show all file in floder
-mkdir <name> -make floder
-dir *<name>*-delete floder
+dir -show all file in folder
+mkdir <name> -make folder
+dir *<name>*-delete folder
 dir <name>* -show research other 
 rmdir -remove 
 move <directory/file> -cut
