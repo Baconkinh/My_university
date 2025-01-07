@@ -1,0 +1,19 @@
+try catch
+คำสั่งที่ใช้สำหรับกำหนดบล็อคเพื่อตรวจสอบและจัดการกับข้อผิดพลาดที่อาจจะเกิดขึ้นในโปรแกรม
+
+try {
+    // Try to do something that may cause errors
+} catch (error) {
+    // Handing errors
+}
+
+
+throw new IllegalArgumentException ()
+เมื่อเกิดerrorจะแยกออกมาแล้วไปทำงานใน()
+
+
+
+encapsulatio = data+funsion
+
+polymorphism = one name can doได้หลาย
+*overloading
