@@ -1,5 +1,5 @@
+package nong;
 interface Animal{
-    
     default void Sound(){
         System.out.println("baba");
     }  //abstract method โดยอัตโนมัติ
@@ -8,24 +8,17 @@ interface Animal{
     }
    void sleep();
 }
-
 interface Car{
     void Engine();  //abstract method โดยอัตโนมัติ
-    
 }
-
 class Dog implements Animal,Car{   //คลาสลูก Sub Class
-    
     public void Engine(){
         System.out.println("Energyyy");
     }
     public void sleep(){
         System.out.println("Dog is sleeping" );
-    
     }
-    
 }
-
 // class Cat implements Animal{  //คลาสลูก Sub Class
 //     public void Sound(){
 //         System.out.println("Box Box");

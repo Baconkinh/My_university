@@ -1,3 +1,4 @@
+package nong;
 class Holder<N> { 
     private N value; 
     public N getValue() { 

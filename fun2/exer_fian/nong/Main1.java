@@ -1,3 +1,4 @@
+package nong;
 import java.util.Scanner; 
 
 interface Shape { 

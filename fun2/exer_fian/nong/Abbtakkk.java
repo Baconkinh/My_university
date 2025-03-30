@@ -1,12 +1,11 @@
+package nong;
 abstract class Animal {   //คลาสแม่ Super Class
     abstract void Sound();
-    
     // abstract void Animal();  ห้ามเอาabstract methodมาเป็นconstructor  ห้ามชื่อเหมือนคลาสง่ายๆ
     void walking(){
         System.out.println("no walk");
     }
     abstract void sleep();
-
 }
 
 class Dog extends Animal{   //คลาสลูก Sub Class
@@ -51,8 +50,6 @@ class Abbtakkk {
         //  obj2.swim();  ใช้ไม่ได้เพราะ Animal Dog  ในAnimal ไม่มี swim
         Dog obj3 = new Dog();
         obj3.Sound();
-        
-        
 
         // Dog obj4 = new Animal();
         // obj4.Sound();

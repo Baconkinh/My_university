@@ -1,3 +1,4 @@
+package nong;
 class Animal {   //คลาสแม่ Super Class
     void Sound(){
         System.out.println("NONONONO");
@@ -26,10 +27,7 @@ class Inheritance {
         obj2.Sound();
         Dog obj3 = new Dog();
         obj3.Sound();
-        // Dog obj4 = new Animal();
+        //Dog obj4 = new Animal();
         // obj4.Sound();
-
-        //javac Inheritance.java      compile
-        //java Inheritance 
     }
 }
