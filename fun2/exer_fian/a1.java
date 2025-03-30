@@ -1,5 +1,3 @@
-package fun2.exer_fian;
-
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Scanner;
